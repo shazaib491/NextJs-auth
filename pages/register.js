@@ -18,7 +18,6 @@ const RegisterPage = () => {
         password: password,
       }),
     });
-    console.log({ response });
     if (response.status === 201) {
         // Redirect to login page after successful registration
         router.push('/login');
